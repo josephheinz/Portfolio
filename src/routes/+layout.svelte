@@ -1,0 +1,12 @@
+<main>
+    <slot />
+</main>
+
+<style global>
+    @import "../app.css";
+    @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+    * {
+        padding: 0;
+        margin: 0;
+    }
+</style>
