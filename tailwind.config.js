@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         karla: ["Karla", "sans-serif"],
-        dmSerif: ["DM Serif Display", "serif"]
+        playfair: ["Playfair Display", "serif"]
       }
     },
   },

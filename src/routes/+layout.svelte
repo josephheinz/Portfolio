@@ -1,12 +1,14 @@
-<main>
-    <slot />
-</main>
+<script>
+    import "../app.css";
+</script>
+
+<slot />
 
 <style global>
-    @import "../app.css";
-    @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
     * {
         padding: 0;
         margin: 0;
+        box-sizing: border-box;
     }
 </style>
