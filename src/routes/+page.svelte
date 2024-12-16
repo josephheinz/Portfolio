@@ -11,43 +11,39 @@
     const bgWhite = "#FFFFFF";
 </script>
 
-<main
-    class="bg-black w-screen h-content min-h-screen block font-karla px-4 absolute"
->
-    <Navbar />
-    <section class="w-full h-full">
-        <Card bg={"#f5ebd7"}>
-            <div class="w-full h-full flex justify-stretch items-stretch z-10">
-                <div class="w-3/6 p-8 flex items-center justify-end">
-                    <img
-                        src="Headshot.png"
-                        alt="Headshot of Joseph Heinz"
-                        class="w-5/6"
+<Navbar />
+<section class="mx-4">
+    <Card bg={"#f5ebd7"}>
+        <div class="w-full h-full flex justify-stretch items-stretch z-10">
+            <div class="w-3/6 p-8 flex items-center justify-end">
+                <img
+                    src="Headshot.png"
+                    alt="Headshot of Joseph Heinz"
+                    class="w-5/6"
+                />
+            </div>
+            <div
+                class="w-3/6 p-8 flex flex-col items-start justify-center gap-12"
+            >
+                <div>
+                    <span>Hey I'm</span>
+                    <span class="flex">
+                        <Title text={"Joseph Heinz"} />
+                        <WaveEmoji />
+                    </span>
+                    <span
+                        >A <span class="font-bold">Web-Developer</span> from</span
+                    ><br />
+                    <span>📍Grand Haven, Michigan, USA </span>
+                </div>
+                <div>
+                    <LinkButton
+                        text={"My Work"}
+                        color={"#ff5e8c"}
+                        link={"/projects"}
                     />
                 </div>
-                <div
-                    class="w-3/6 p-8 flex flex-col items-start justify-center gap-12"
-                >
-                    <div>
-                        <span>Hey I'm</span>
-                        <span class="flex">
-                            <Title text={"Joseph Heinz"} />
-                            <WaveEmoji />
-                        </span>
-                        <span
-                            >A <span class="font-bold">Web-Developer</span> from</span
-                        ><br />
-                        <span>📍Grand Haven, Michigan, USA </span>
-                    </div>
-                    <div>
-                        <LinkButton
-                            text={"My Work"}
-                            color={"#ff5e8c"}
-                            link={"/projects"}
-                        />
-                    </div>
-                </div>
             </div>
-        </Card>
-    </section>
-</main>
+        </div>
+    </Card>
+</section>

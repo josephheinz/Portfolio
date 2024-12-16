@@ -11,7 +11,7 @@
 </script>
 
 <Navbar />
-<section class="w-full h-full block">
+<section class="mx-4 grow">
     <Card bg={"#f5ebd7"}>
         <div class="w-full h-full flex justify-stretch items-stretch z-10">
             <div class="w-3/6 p-8 flex items-center justify-center">

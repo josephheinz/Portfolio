@@ -3,7 +3,7 @@
 </script>
 
 <main
-    class="bg-black w-screen h-content min-h-screen block font-karla px-4 absolute"
+    class="bg-black w-screen min-h-screen flex-col block font-karla px-4 absolute"
 >
     <slot />
 </main>
