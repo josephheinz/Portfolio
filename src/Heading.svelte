@@ -2,6 +2,6 @@
     const { text } = $props();
 </script>
 
-<h1 class="text-6xl font-black font-playfair">
+<h1 class="font-playfair font-bold text-5xl">
     {text}
 </h1>

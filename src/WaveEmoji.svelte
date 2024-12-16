@@ -9,7 +9,7 @@
     }
 
     .emoji:hover {
-        animation: wave 0.6s infinite ease-in-out;
+        animation: wave 0.6s 1 ease-in-out;
     }
 
     @keyframes wave {

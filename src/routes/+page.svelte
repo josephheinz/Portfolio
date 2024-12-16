@@ -2,36 +2,51 @@
     import Card from "../Card.svelte";
     import FuzzyBlob from "../FuzzyBlob.svelte";
     import Title from "../Title.svelte";
+    import LinkButton from "../LinkButton.svelte";
     import WaveEmoji from "../WaveEmoji.svelte";
+    import Heading from "../Heading.svelte";
     import { FontAwesomeIcon } from "@fortawesome/svelte-fontawesome";
-    import { faUser } from "@fortawesome/free-solid-svg-icons";
-    const color = "#FF0000";
-    const posX = 0;
-    const posY = 0;
+    import { faMapPin } from "@fortawesome/free-solid-svg-icons";
+    import Navbar from "../Navbar.svelte";
     const bgWhite = "#FFFFFF";
 </script>
 
-<main class="bg-black w-screen h-screen block font-karla px-4 absolute">
-    <section class="w-full">
-        <Card bg={bgWhite}>
-            <div class="w-full h-full flex items-center">
-                <Title text={"JH"} />
-            </div>
-        </Card>
-    </section>
-    <section class="w-full h-5/6">
-        <Card bg={"#F7E7CE"}>
-            <div class="w-full h-full flex">
-                <div class="grow p-8 flex flex-col items-left justify-evenly">
+<main
+    class="bg-black w-screen h-content min-h-screen block font-karla px-4 absolute"
+>
+    <Navbar />
+    <section class="w-full h-full">
+        <Card bg={"#f5ebd7"}>
+            <div class="w-full h-full flex justify-stretch items-stretch z-10">
+                <div class="w-3/6 p-8 flex items-center justify-end">
+                    <img
+                        src="Headshot.png"
+                        alt="Headshot of Joseph Heinz"
+                        class="w-5/6"
+                    />
+                </div>
+                <div
+                    class="w-3/6 p-8 flex flex-col items-start justify-center gap-12"
+                >
                     <div>
                         <span>Hey I'm</span>
-                        <span>
+                        <span class="flex">
                             <Title text={"Joseph Heinz"} />
-                            <WaveEmoji/>
+                            <WaveEmoji />
                         </span>
+                        <span
+                            >A <span class="font-bold">Web-Developer</span> from</span
+                        ><br />
+                        <span>📍Grand Haven, Michigan, USA </span>
+                    </div>
+                    <div>
+                        <LinkButton
+                            text={"My Work"}
+                            color={"#ff5e8c"}
+                            link={"/projects"}
+                        />
                     </div>
                 </div>
-                <div class="grow">adf</div>
             </div>
         </Card>
     </section>
