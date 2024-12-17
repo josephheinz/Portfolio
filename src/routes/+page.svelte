@@ -12,8 +12,8 @@
 </script>
 
 <Navbar />
-<section class="mx-4">
-    <Card bg={"#f5ebd7"}>
+<section class="mx-4 h-1 grow mb-4">
+    <Card>
         <div class="w-full h-full flex justify-stretch items-stretch z-10">
             <div class="w-3/6 p-8 flex items-center justify-end">
                 <img

@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         karla: ["Karla", "sans-serif"],
-        playfair: ["Playfair Display", "serif"]
+        playfair: ["Playfair Display", "serif"],
+        unbounded: ["Unbounded", "sans-serif"]
       },
       colors: {
         tan: "#f5ebd7",
@@ -15,7 +16,11 @@ module.exports = {
         "light-red": "#ff5e8c",
         "light-blue": "#7385de",
         "sick-green": "#bbd700"
-      }
+      },
+      boxShadow: {
+        custom: "4px 6px 0px 3px #000000",
+        "custom-small": "2px 3px 0px 2px #000000",
+      },
     },
   },
   plugins: [],
