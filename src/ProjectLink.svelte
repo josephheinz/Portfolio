@@ -6,7 +6,7 @@
     href={link}
     target="_blank"
     style="--color:{color};"
-    class="py-1 px-2 text-lg border-4 border-black shadow-custom-small bg-[var(--color)] text-black transition-all hover:shadow-none"
+    class="py-2 px-4 text-lg border-4 border-black shadow-custom-small bg-[var(--color)] text-black transition-all hover:shadow-none"
 >
     {@html text}
 </a>
