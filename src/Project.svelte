@@ -1,5 +1,5 @@
 <div
-    class="grid grid-cols-2 grid-rows-2 gap-4 h-72 w-full bg-slate-100 border-4 border-black shadow-custom p-2"
+    class="grid grid-cols-2 grid-rows-2 gap-4 h-72 w-[90%] mx-auto bg-slate-100 border-4 border-black shadow-custom p-2"
 >
     <div class="w-full h-full border-4 border-black shadow-custom-small">
         <slot name="Thumbnail"/>
