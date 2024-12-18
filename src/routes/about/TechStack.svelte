@@ -18,4 +18,5 @@
         <Tech icon={"devicon-svelte-plain"} name={"Svelte"} />
         <Tech icon={"devicon-tailwindcss-plain"} name={"TailwindCSS"} />
     </div>
+    <img src="StarRounded.png" alt="Rounded Star" width="100" class="absolute -right-6 -bottom-12">
 </div>
