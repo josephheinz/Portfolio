@@ -14,11 +14,11 @@
 <section class="mx-4 mb-4 flex-grow h-1">
     <Card>
         <div class="w-full h-full flex justify-stretch items-stretch z-10">
-            <div class="w-2/6 p-8 flex items-center justify-center">
+            <div class="w-3/6 p-8 flex items-center justify-center">
                 <Title text={"Projects"} />
             </div>
             <div
-                class="w-4/6 max-h-full p-8 grid grid-cols-2 gap-4 overflow-x-hidden overflow-y-scroll gap-12"
+                class="w-3/6 max-h-full p-8 grid grid-cols-2 gap-4 overflow-x-hidden overflow-y-scroll gap-12"
             >
                 <Project>
                     <img
@@ -34,39 +34,56 @@
                     >
                     <ProjectTechnologies slot="Technologies">
                         <SvelteTooltip tip="Supabase" top color="#e9e9e9">
-                            <i class="devicon-supabase-plain colored text-xl"
+                            <i class="devicon-supabase-plain text-xl text-black"
                             ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="Svelte" top color="#e9e9e9">
-                            <i class="devicon-svelte-plain colored text-xl"></i>
+                            <i class="devicon-svelte-plain text-black text-xl"
+                            ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="NodeJS" top color="#e9e9e9">
-                            <i class="devicon-nodejs-plain colored text-xl"></i>
+                            <i
+                                class="devicon-nodejs-plain-wordmark text-black text-xl"
+                            ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="Cloudflare" top color="#e9e9e9">
-                            <i class="devicon-cloudflare-plain colored text-xl"
+                            <i
+                                class="devicon-cloudflare-plain text-black text-xl"
                             ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="Docker" top color="#e9e9e9">
-                            <i class="devicon-docker-plain colored text-xl"></i>
+                            <i class="devicon-docker-plain text-black text-xl"
+                            ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="NGINX" top color="#e9e9e9">
-                            <i class="devicon-nginx-original colored text-xl"
+                            <i class="devicon-nginx-original text-black text-xl"
                             ></i>
                         </SvelteTooltip>
                     </ProjectTechnologies>
-                    <div slot="Buttons" >
-                        <ProjectLink color={"#ff5e8c"} text={"Github"} link={"https://github.com/josephheinz/Livestream-Website"}/>
+                    <div slot="Buttons">
+                        <ProjectLink
+                            github={"https://github.com/josephheinz/Livestream-Website"}
+                            live={"https://josephheinz.live/"}
+                        />
                     </div>
                 </Project>
                 <Project>
                     <span slot="ProjectName">My Portfolio</span>
-                    <span slot="Projectdesc">The portfolio site you are on right now, built to showcase my work.</span>
+                    <span slot="Projectdesc"
+                        >The portfolio site you are on right now, built to
+                        showcase my work.</span
+                    >
                     <ProjectTechnologies slot="Technologies">
                         <SvelteTooltip tip="Svelte" top color="#e9e9e9">
-                            <i class="devicon-svelte-plain colored text-xl"></i>
+                            <i class="devicon-svelte-plain text-black text-xl"
+                            ></i>
                         </SvelteTooltip>
                     </ProjectTechnologies>
+                    <div slot="Buttons">
+                        <ProjectLink
+                            github={"https://github.com/josephheinz/Portfolio"}
+                        />
+                    </div>
                 </Project>
             </div>
         </div>

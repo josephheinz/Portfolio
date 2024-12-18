@@ -11,11 +11,12 @@ module.exports = {
         unbounded: ["Unbounded", "sans-serif"]
       },
       colors: {
-        tan: "#f5ebd7",
-        "light-orange": "#fba979",
-        "light-red": "#ff5e8c",
-        "light-blue": "#7385de",
-        "sick-green": "#bbd700"
+        pink: "#F269FF",
+        "dark-pink": "#5F3462",
+        "yellow": "#FFE369",
+        "red": "#FF4747",
+        "custom-black": "#1A1A1A",
+        "gray": "#E0E0E0"
       },
       boxShadow: {
         custom: "4px 6px 0px 3px #000000",

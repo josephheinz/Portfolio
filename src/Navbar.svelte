@@ -8,7 +8,7 @@
             <h1 class="text-2xl font-black font-unbounded">
                 <a href="../" class="cursor-pointer">Joseph Heinz</a>
             </h1>
-            <div class="flex gap-2">
+            <div class="flex gap-2 py-1 px-2 border-4 border-black">
                 <a href="/projects">Projects</a>
             </div>
         </div>

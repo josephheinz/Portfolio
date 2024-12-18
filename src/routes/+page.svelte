@@ -39,7 +39,7 @@
                 <div>
                     <LinkButton
                         text={"My Work"}
-                        color={"#ff5e8c"}
+                        color={"#FF4747"}
                         link={"/projects"}
                     />
                 </div>

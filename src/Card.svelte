@@ -3,9 +3,8 @@
 </script>
 
 <section
-    class="w-full h-full block relative my-2 p-4 overflow-hidden isolate"
+    class="w-full h-full block relative my-2 p-4 overflow-hidden isolate bg-yellow"
     {id}
-    style="background:{bg};"
 >
     <!-- <img
         src="PaperTexture.jpg"
