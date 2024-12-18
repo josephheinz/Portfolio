@@ -1,12 +1,12 @@
 <script>
     import Card from "../../Card.svelte";
     import Title from "../../Title.svelte";
-    import ProjectLink from "../../ProjectLink.svelte";
+    import ProjectLink from "./ProjectLink.svelte";
     import { FontAwesomeIcon } from "@fortawesome/svelte-fontawesome";
     import { faMapPin } from "@fortawesome/free-solid-svg-icons";
     import Navbar from "../../Navbar.svelte";
-    import Project from "../../Project.svelte";
-    import ProjectTechnologies from "../../ProjectTechnologies.svelte";
+    import Project from "./Project.svelte";
+    import ProjectTechnologies from "./ProjectTechnologies.svelte";
     import SvelteTooltip from "svelte-tooltip";
 </script>
 
@@ -20,7 +20,7 @@
             <div
                 class="w-3/6 max-h-full p-8 grid grid-cols-2 gap-4 overflow-x-hidden overflow-y-scroll gap-12"
             >
-                <Project>
+                <Project inDev={true}>
                     <img
                         slot="Thumbnail"
                         src="Projects/Josephheinzlive.png"
@@ -34,29 +34,34 @@
                     >
                     <ProjectTechnologies slot="Technologies">
                         <SvelteTooltip tip="Supabase" top color="#e9e9e9">
-                            <i class="devicon-supabase-plain text-xl text-black"
+                            <i class="devicon-supabase-plain text-2xl text-black"
                             ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="Svelte" top color="#e9e9e9">
-                            <i class="devicon-svelte-plain text-black text-xl"
+                            <i class="devicon-svelte-plain text-black text-2xl"
                             ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="NodeJS" top color="#e9e9e9">
                             <i
-                                class="devicon-nodejs-plain-wordmark text-black text-xl"
+                                class="devicon-nodejs-plain-wordmark text-black text-2xl"
                             ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="Cloudflare" top color="#e9e9e9">
                             <i
-                                class="devicon-cloudflare-plain text-black text-xl"
+                                class="devicon-cloudflare-plain text-black text-2xl"
                             ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="Docker" top color="#e9e9e9">
-                            <i class="devicon-docker-plain text-black text-xl"
+                            <i class="devicon-docker-plain text-black text-2xl"
                             ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="NGINX" top color="#e9e9e9">
-                            <i class="devicon-nginx-original text-black text-xl"
+                            <i class="devicon-nginx-original text-black text-2xl"
+                            ></i>
+                        </SvelteTooltip>
+                        <SvelteTooltip tip="TailwindCSS" top color="#e9e9e9">
+                            <i
+                                class="devicon-tailwindcss-original text-black text-2xl"
                             ></i>
                         </SvelteTooltip>
                     </ProjectTechnologies>
@@ -68,6 +73,12 @@
                     </div>
                 </Project>
                 <Project>
+                    <img
+                        slot="Thumbnail"
+                        src="Projects/Portfolio.png"
+                        alt="Picture of my portfolio homepage"
+                        class="w-full h-full object-cover"
+                    />
                     <span slot="ProjectName">My Portfolio</span>
                     <span slot="Projectdesc"
                         >The portfolio site you are on right now, built to
@@ -75,7 +86,12 @@
                     >
                     <ProjectTechnologies slot="Technologies">
                         <SvelteTooltip tip="Svelte" top color="#e9e9e9">
-                            <i class="devicon-svelte-plain text-black text-xl"
+                            <i class="devicon-svelte-plain text-black text-2xl"
+                            ></i>
+                        </SvelteTooltip>
+                        <SvelteTooltip tip="TailwindCSS" top color="#e9e9e9">
+                            <i
+                                class="devicon-tailwindcss-original text-black text-2xl"
                             ></i>
                         </SvelteTooltip>
                     </ProjectTechnologies>

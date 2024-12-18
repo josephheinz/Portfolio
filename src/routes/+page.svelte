@@ -32,9 +32,9 @@
                         <WaveEmoji />
                     </span>
                     <span
-                        >A <span class="font-bold">Web-Developer</span> from</span
-                    ><br />
-                    <span>📍Grand Haven, Michigan, USA </span>
+                        >A <span class="font-bold">Web-Developer</span> from Michigan,
+                        USA</span
+                    >
                 </div>
                 <div>
                     <LinkButton

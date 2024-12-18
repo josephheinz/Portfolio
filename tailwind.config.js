@@ -16,7 +16,8 @@ module.exports = {
         "yellow": "#FFE369",
         "red": "#FF4747",
         "custom-black": "#1A1A1A",
-        "gray": "#E0E0E0"
+        "gray": "#E0E0E0",
+        "green": "#96FF69"
       },
       boxShadow: {
         custom: "4px 6px 0px 3px #000000",
