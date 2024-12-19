@@ -2,9 +2,11 @@
     import "../../app.css";
 </script>
 
-<main
-    class="bg-black w-screen min-h-screen flex flex-col font-karla absolute"
->
+<svelte:head>
+    <title>About Me</title>
+</svelte:head>
+
+<main class="bg-black w-screen min-h-screen flex flex-col font-karla absolute">
     <slot />
 </main>
 

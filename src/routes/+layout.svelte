@@ -2,6 +2,10 @@
     import "../app.css";
 </script>
 
+<svelte:head>
+    <title>Joseph Heinz</title>
+</svelte:head>
+
 <main
     class="bg-black w-screen min-h-screen flex flex-col font-karla px-4 absolute"
 >

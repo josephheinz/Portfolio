@@ -20,6 +20,7 @@
                     src="Headshot.png"
                     alt="Headshot of Joseph Heinz"
                     class="w-5/6"
+                    id="Photo"
                 />
             </div>
             <div
@@ -36,11 +37,16 @@
                         USA</span
                     >
                 </div>
-                <div>
+                <div class="flex gap-4">
                     <LinkButton
                         text={"My Work"}
                         color={"#FF4747"}
                         link={"/projects"}
+                    />
+                    <LinkButton
+                        text={"About Me"}
+                        color={"#96FF69"}
+                        link={"/about"}
                     />
                 </div>
             </div>
