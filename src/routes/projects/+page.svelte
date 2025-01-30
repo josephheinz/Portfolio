@@ -18,9 +18,9 @@
                 <Title text={"Projects"} />
             </div>
             <div
-                class="w-3/6 max-h-full p-8 grid grid-cols-2 gap-4 overflow-x-hidden overflow-y-scroll gap-12"
+                class="w-3/6 max-h-full relative p-8 grid grid-cols-2 gap-4 overflow-x-hidden overflow-y-scroll gap-12"
             >
-                <Project inDev={true}>
+                <Project inDev={false}>
                     <img
                         slot="Thumbnail"
                         src="Projects/Josephheinzlive.png"
@@ -34,7 +34,8 @@
                     >
                     <ProjectTechnologies slot="Technologies">
                         <SvelteTooltip tip="Supabase" top color="#e9e9e9">
-                            <i class="devicon-supabase-plain text-2xl text-black"
+                            <i
+                                class="devicon-supabase-plain text-2xl text-black"
                             ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="Svelte" top color="#e9e9e9">
@@ -56,7 +57,8 @@
                             ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="NGINX" top color="#e9e9e9">
-                            <i class="devicon-nginx-original text-black text-2xl"
+                            <i
+                                class="devicon-nginx-original text-black text-2xl"
                             ></i>
                         </SvelteTooltip>
                         <SvelteTooltip tip="TailwindCSS" top color="#e9e9e9">
@@ -98,6 +100,39 @@
                     <div slot="Buttons">
                         <ProjectLink
                             github={"https://github.com/josephheinz/Portfolio"}
+                        />
+                    </div>
+                </Project>
+                <Project inDev={true}>
+                    <!--<img
+                        slot="Thumbnail"
+                        alt="Picture of my portfolio homepage"
+                        class="w-full h-full object-cover"
+                    />-->
+                    <span slot="ProjectName">Student Tracker Dashboard</span>
+                    <span slot="Projectdesc"
+                        >A dashboard for the classroom tracking system that
+                        allows you to view and edit where students are.</span
+                    >
+                    <ProjectTechnologies slot="Technologies">
+                        <SvelteTooltip tip="Svelte" top color="#e9e9e9">
+                            <i class="devicon-svelte-plain text-black text-2xl"
+                            ></i>
+                        </SvelteTooltip>
+                        <SvelteTooltip tip="TailwindCSS" top color="#e9e9e9">
+                            <i
+                                class="devicon-tailwindcss-original text-black text-2xl"
+                            ></i>
+                        </SvelteTooltip>
+                        <SvelteTooltip tip="TypeScript" top color="#e9e9e9">
+                            <i
+                                class="devicon-typescript-plain text-black text-2xl"
+                            ></i>
+                        </SvelteTooltip>
+                    </ProjectTechnologies>
+                    <div slot="Buttons">
+                        <ProjectLink
+                            github={"https://github.com/josephheinz/Student-Tracker-Dashboard"}
                         />
                     </div>
                 </Project>
